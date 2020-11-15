@@ -1,0 +1,30 @@
+nav{
+    background: transparent;
+    color:#FFFFFF;
+    border-bottom: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #E0752F;
+    position: absolute;
+    width: 100%;
+}
+
+
+nav a{
+    color:#FFFFFF;
+}
+
+nav a:hover{
+    color:#E0752F;
+}
+
+
+nav li{
+    margin: 10px;
+    list-style: none;
+    padding: 10px;
+}
+
+.nav-elemento{
+    margin-top: 20px;
+    font-size: 18px;
+}

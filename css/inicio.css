@@ -1,0 +1,24 @@
+
+
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+a:hover{
+    text-decoration: none;
+}
+
+::selection{
+    background-color: #E0752F;
+    color: white;
+}
+
+button:hover{
+    background-color:rgb(255, 229, 176);
+    color: #E0752F;
+    border: solid;
+    border-width: 1px;
+    border-color: #E0752F;
+    margin: -1px;
+}

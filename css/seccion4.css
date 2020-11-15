@@ -1,0 +1,23 @@
+.seccion4-inicio #accordion{
+    position: relative;
+    margin-top: 120px;
+    margin-left: 100px;
+    width: 46%;
+}
+
+.seccion4-inicio #accordion button{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+}
+
+.imagen-left-s4{
+    margin-left: -200px;
+    height: 700px;
+    width: 60%;
+    background-repeat: no-repeat;
+    float: right;
+}
+.contenido-s4{
+    display: flex;
+}

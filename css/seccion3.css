@@ -1,0 +1,47 @@
+.seccion3-inicio{
+    background-color:#F2F4F1;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    border-right: solid;
+    border-right-width: 400px;
+    border-right-color: #DCE1DA;
+    width: 100%;
+}
+/*usar margin-right -400px , segun el borde que tengo en la seccion de inicio (ya que puede cambiar*/
+.contenido-s3{
+    margin-right: -400px;
+}
+
+.recuadro-naranja-s3{
+    position: absolute;
+    background-color:#E0752F;
+    color:#ffffff;
+    z-index:2;
+    margin-top: 243px;
+    margin-left: 500px;
+    margin-right: 191px;
+    padding: 40px;
+}
+
+.foto-fondo-s3{
+    width: 966px;
+    height: 552px;
+    z-index: 1;
+}
+
+.button-s3 img{
+    background-color:#E0752F;
+}
+.button-s3 button{
+    border: none;
+    background-color: #E0752F;
+    padding-left: 4px;
+
+}
+.button-s3{
+    float: right;
+    margin-right: 20px;
+}
+.texto2-inicio-s3{
+    font-size: 40px;;
+}

@@ -1,0 +1,28 @@
+.seccion2-inicio{
+    background-color: #FFFFFF;
+    border-left: solid;
+    border-color:#E0752F;
+    border-left-width: 20px;
+    padding-left: 220px;
+    padding-right: 240px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.texto1-inicio-s2{
+    color: #343434;
+    font-size: 40px;
+}
+.texto1-inicio-s2 span{
+    color: #E0752F;
+}
+
+.texto2-inicio-s2{
+    padding-top: 20px;
+    color: #343434;
+    font-size: 16px;
+}
+.espaciado-s1-s3{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
