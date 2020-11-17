@@ -1,5 +1,4 @@
 
-
 *{
     text-decoration: none;
     margin: 0;
@@ -14,11 +13,20 @@ a:hover{
     color: white;
 }
 
-button:hover{
+.btn-read-more:hover{
     background-color:rgb(255, 229, 176);
     color: #E0752F;
     border: solid;
     border-width: 1px;
     border-color: #E0752F;
     margin: -1px;
+}
+
+.btn-read-more{
+    border: none;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #E0752F;
+    color:#FFFFFF;
 }
