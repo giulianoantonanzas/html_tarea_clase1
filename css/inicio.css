@@ -33,11 +33,7 @@ a:hover{
 .btn-read-more:hover{
     background-color:rgb(255, 229, 176);
     color: #E0752F;
-    border: solid;
-    border-width: 1px;
-    border-color: #E0752F;
     transition-duration: 0.3s;
-    margin: -1px;
 }
 
 .btn-read-more{
