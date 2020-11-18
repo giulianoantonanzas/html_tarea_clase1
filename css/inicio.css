@@ -17,6 +17,10 @@
     padding: 0;
     font-family: roboto-regular;
 }
+html{
+    scroll-behavior: smooth;
+}
+
 a:hover{
     text-decoration: none;
 }
@@ -32,6 +36,7 @@ a:hover{
     border: solid;
     border-width: 1px;
     border-color: #E0752F;
+    transition-duration: 0.3s;
     margin: -1px;
 }
 

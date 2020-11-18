@@ -1,8 +1,8 @@
 .seccion4-inicio #accordion{
     position: relative;
-    margin-top: 120px;
+    margin-top: 130px;
     margin-left: 100px;
-    width: 46%;
+    width: 75%;
 }
 
 .seccion4-inicio #accordion button{
@@ -12,12 +12,14 @@
 }
 
 .imagen-left-s4{
-    margin-left: -200px;
+    margin-left: -180px;
     height: 700px;
-    width: 60%;
-    background-repeat: no-repeat;
+    width: 100%;
+    display: flexbox;
     float: right;
+    
 }
 .contenido-s4{
     display: flex;
+    width: 100%;
 }

@@ -13,10 +13,11 @@ nav a{
     color:#FFFFFF;
 }
 
+
 nav a:hover{
     color:#E0752F;
+    transition-duration: 0.3s;
 }
-
 
 nav li{
     margin: 10px;
@@ -28,3 +29,4 @@ nav li{
     margin-top: 20px;
     font-size: 18px;
 }
+
