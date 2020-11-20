@@ -21,6 +21,17 @@ html{
     scroll-behavior: smooth;
 }
 
+body{
+    width: 100%;
+    
+}
+@media screen and (max-width: 600px){
+    body{
+        width: 100%;
+    }
+}
+
+
 a:hover{
     text-decoration: none;
 }

@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="css/inicio.css">
@@ -13,7 +14,7 @@
     <link rel="stylesheet" href="css/seccion4.css">
     <link rel="stylesheet" href="css/seccion5.css">
     <link rel="stylesheet" href="css/footer.css">
-    <script src="js/scroll-slow.js"></script>
+    
 
 
     <link rel="shortcut icon" href="images/top-logo.svg" type="image/x-icon">
@@ -23,14 +24,21 @@
 <body>
     <!-- NAVBAR (EN LA CABEZA DE LA PAGINA)-->
     <header>
-        <nav class="nav">
-            <ul class="d-flex bd-highlight mb-1 container">
+        <nav class="nav" id="nav">
+            <ul class="d-flex bd-highlight mb-1 container nav-conteiner">
                 <li class="nav-logo mr-auto p-2 bd-highlight"><a  href=""><img src="images/top-logo.svg" alt=""></a></li>
-                <li class="nav-elemento p-2 bd-highlight"><a href="#s1-inicio">Home</a></li>
-                <li class="nav-elemento p-2 bd-highlight"><a href="#s2-inicio">About</a></li>
-                <li class="nav-elemento p-2 bd-highlight"><a href="#s3-inicio">Products</a></li>
-                <li class="nav-elemento p-2 bd-highlight"><a href="#s4-inicio">Services</a></li>
-                <li class="nav-elemento p-2 bd-highlight"><a href="#s5-inicio">Contact</a></li>
+                <a href="javascript:void(0);" class="icon-nav-phone" onclick="menuPhone()">
+                  <i class="fa fa-bars"><br></i>
+                </a>
+                <div class="navLinks" id="navLinks">
+                  <li class="nav-elemento p-2 bd-highlight"><a href="#s1-inicio">Home</a></li>
+                  <li class="nav-elemento p-2 bd-highlight"><a href="#s2-inicio">About</a></li>
+                  <li class="nav-elemento p-2 bd-highlight"><a href="#s3-inicio">Products</a></li>
+                  <li class="nav-elemento p-2 bd-highlight"><a href="#s4-inicio">Services</a></li>
+                  <li class="nav-elemento p-2 bd-highlight"><a href="#s5-inicio">Contact</a></li>
+                </div>
+                
+                
             </ul>
         </nav>
     </header>
@@ -39,7 +47,7 @@
     
     <!-- FOTO CON TECTO QUE HAY AL COMIENZO DE LA PAGINA (SECCION 1)-->
     <div class="seccion1-inicio" id="s1-inicio" style="background-image: url('images/slider-1.png');">
-        <div class="container">
+        <div class="container contenido-s1">
             <div class="texto1-inicio-s1">
                 <p>
                     sed ut perspiciatis unde omnis iste natus
@@ -105,7 +113,7 @@
 
    <!-- CUARTO TRAMO DE LA PAGINA , IMAGEN A LA DERECHA Y UN DESPLEGABLE EN EL MEDIO(MEDIO TIRANDO A LA IZQUIERDA)-->
     <div class="seccion4-inicio" id="s4-inicio">
-        <div class="contenido-s4" >
+        <div class="contenido-s4" style="background-image: url(images/section4-image.png);" >
             <div id="accordion">
               <div class="card">
                 <div class="card-header" id="headingOne">
@@ -151,7 +159,6 @@
                 </div>
               </div>
             </div>
-            <img class="imagen-left-s4" src="images/section4-image.png" alt="">
           </div>
         </div>
     </div>
@@ -159,7 +166,7 @@
 
 <!-- seccion 5-->
     <div class="seccion5-inicio" id="s5-inicio">
-      <div class="contenido-s5">
+      <div class="contenido-s5" style="background-image: url(images/contact-image.png);">
         <div class="formulario-s5 container">
           <div class="texto1-s5">
             <p>Get in touch <br>
@@ -181,8 +188,8 @@
         </div>
   
   
-        <div class="img-derecha-s5">
-          <img src="images/contact-image.png" alt="">
+        <!--<div class="img-derecha-s5">
+          <img src="images/contact-image.png" alt="">-->
         </div>
       </div>
     </div>
@@ -196,5 +203,10 @@
       </div>
     </footer>
     
+
+
+
+    <!--Scripts-->
+    <script src="js/navConfigure.js"></script>
 </body>
 </html>

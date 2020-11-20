@@ -1,7 +1,7 @@
 .seccion3-inicio{
     background-color:#F2F4F1;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 80px;
+    padding-bottom: 80px;
     border-right: solid;
     border-right-width: 400px;
     border-right-color: #DCE1DA;
@@ -10,6 +10,22 @@
 /*usar margin-right -400px , segun el borde que tengo en la seccion de inicio (ya que puede cambiar*/
 .contenido-s3{
     margin-right: -400px;
+}
+
+@media screen and (max-width: 600px){
+    .foto-fondo-s3{
+        background-position: center;
+        background-size: cover;
+    }
+    .seccion3-inicio{
+        border-right-width:80px;
+    }
+    .contenido-s3{
+        margin-right:-80px;
+    }
+    .recuadro-naranja-s3{
+        margin-left:20%!important;
+    }
 }
 
 .recuadro-naranja-s3{

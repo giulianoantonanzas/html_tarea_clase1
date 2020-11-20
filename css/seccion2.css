@@ -8,6 +8,21 @@
     padding-bottom: 10px;
     padding-top: 10px;
 }
+.seccion2-inicio{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+@media screen and (max-width: 600px){
+    .contenido-s2{
+        padding-left: 20px;
+        padding-right: 40px;
+    }
+    .seccion2-inicio{
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+}
 
 .texto1-inicio-s2{
     color: #343434;
@@ -21,8 +36,4 @@
     padding-top: 20px;
     color: #343434;
     font-size: 16px;
-}
-.seccion2-inicio{
-    padding-top: 100px;
-    padding-bottom: 100px;
 }
