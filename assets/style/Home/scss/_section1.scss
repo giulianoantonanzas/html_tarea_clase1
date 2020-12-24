@@ -1,0 +1,41 @@
+.section1{
+    top:0;
+    left:0;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    color:#FFFFFF;
+    background-image: url('#{$route_img}slider-1.png');
+    .content-s1{
+        height: 700px;
+        margin-left: 10%;
+        .text1-s1{
+            width:50%;
+            font-size: 48px;
+            padding-top: 20%;
+        }
+        .text2-s1{
+            width:30%;
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+    }
+}
+
+
+@media screen and (max-width: 600px){
+    .section1{
+        background-position: center;
+        height: 840px;
+        .content-s1{
+            padding-top: 20%;
+            .text1-s1 ,.text2-s1, button{
+                margin-left: 20px;
+            }
+            .text1-s1,.text2-s1{
+                width: 70%;
+            }
+        }
+    }
+}

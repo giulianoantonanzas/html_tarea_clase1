@@ -1,0 +1,50 @@
+@font-face{
+    font-family:$title_name_font;
+    src: url("#{$route_font}Poppins-SemiBold.ttf");
+}
+
+@font-face{
+    font-family:$regular_name_font;
+    src: url('#{$route_font}Roboto-Regular.ttf');
+}
+@font-face{
+    font-family:$medium_name_font;
+    src: url("#{$route_font}Roboto-Medium.ttf");
+    //reemplaza el src: url("/assets/fonts/Roboto-Medium.ttf");
+    //por un src: url("#{$route_font}Roboto-Medium.ttf");  , donde el $route_fomt , tiene la ruta de la fuente.
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family:$medium_name_font;
+}
+a{
+    text-decoration: none;
+    &:hover{
+    text-decoration: none;
+    }
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    width: 100%;
+    box-sizing: border-box;
+}
+
+::selection{
+    background-color: $color_primary;
+    color: #ffffff;
+}
+
+
+.text1-s1 p,.text1-s2,.text1-s2 span,.text1-s5 p,.text1-s5 span{
+    font-family: $title_name_font;
+    line-height: 1.2em;
+}
+nav,.text2-s1,.text1-s3{
+    font-family:$medium_name_font;
+}

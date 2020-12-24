@@ -1,0 +1,86 @@
+header{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    nav{
+        color:#FFFFFF;
+        border-bottom: solid;
+        border-bottom-width: 1px;
+        border-bottom-color: $color_primary;
+        position: absolute;
+        width: 100%;
+        .navLinks{
+            display: flex;
+            margin-left: auto;
+            top: 0;
+            right: 0;
+            float: right;
+        }
+        li{
+            margin: 10px;
+            list-style: none;
+            padding: 10px;
+            :hover{
+                color:$color_primary;
+                transition-duration: 0.3s;
+            }
+        }
+        a{
+            color:#FFFFFF;
+            .fa{
+                display: none;
+                right: 0;
+                top: 0;
+                margin-right: 44px;
+                margin-top: 16px;
+                font-size: 50px;
+            }
+        }
+        .nav-element{
+            margin-top: 20px;
+            font-size: 18px;
+        }
+        .icon-nav-phone{
+            color: $color_primary;
+        }
+
+        
+    }
+}
+
+
+@media screen and (max-width: 600px){
+    nav{
+        .nav-logo img{
+            height: 30px;
+        }
+        .fa{
+            position: absolute;
+            display: block!important;
+
+        }
+        .navLinks li{
+            display: none;
+        }
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    // when script is apply
+    .nav.responsive{
+        .navLinks{
+            transition-duration: 0.3s;
+            display:block;
+            margin-right: 10px;
+            margin-top: 54px;
+            text-align: right;
+            li{
+                display: block;
+            }
+        }
+        .fa{
+            font-size: 60px;
+        }
+    }
+}

@@ -1,0 +1,40 @@
+.section2{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    box-sizing: border-box;
+    .content-s2{
+        background-color: #FFFFFF;
+        border-left: solid;
+        border-color:$color_primary;
+        border-left-width: 20px;
+        padding-left: 20%;
+        padding-right: 20%;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        .text1-s2{
+            color:$color_secundary;
+            font-size: 40px;
+            span{
+                color: $color_primary;
+            }
+        }
+        .text2-s2{
+            padding-top: 20px;
+            color: $color_secundary;
+            font-size: 16px;
+            font-family: $regular_name_font;
+        }
+    }
+}
+
+
+@media screen and (max-width: 600px){
+    .section2{
+        padding-top: 60px;
+        padding-bottom: 60px;
+        .content-s2{
+            padding-left: 10%;
+            padding-right: 10%;
+        }
+    }
+}

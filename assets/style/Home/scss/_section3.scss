@@ -1,0 +1,66 @@
+.section3{
+    background-color:$color_background;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    border-right: solid;
+    border-right-width: 400px;
+    border-right-color: $color_border;
+    width: 100%;
+    box-sizing: border-box;
+    /*usar margin-right -400px , segun el borde que tengo en la seccion de inicio (ya que puede cambiar*/
+    .content-s3{
+        margin-right: -400px;
+        display: flex;
+        justify-content: center center;
+        .photo-background-s3{
+            position: relative;
+            width: 966px;
+            height: 552px;
+            z-index: 1;
+            background-image: url("#{$route_img}section3-image.png");
+        }
+        .block-orange-s3{
+            position: absolute;
+            background-color:$color_primary;
+            color:#ffffff;
+            bottom: 0;
+            right: 0;
+            margin-left: 50%;
+            padding: 40px;
+            .text2-s3{
+                font-size: 35px;
+            }
+            .text3-s3{
+                font-family: $regular_name_font;
+            }            
+            .button-s3{
+                float: right;
+                margin-right: 20px;
+                a{
+                    border: none;
+                    background-color: $color_primary;
+                    margin-right: 10px;
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 600px){
+    .section3{
+        border-right-width:80px;
+        .content-s3{
+            margin-right:-80px;
+        }
+        .photo-background-s3{
+            background-position: center;
+            background-size: cover;
+            .block-orange-s3{
+                margin-left:20%;
+            }
+        }
+    }
+    
+}

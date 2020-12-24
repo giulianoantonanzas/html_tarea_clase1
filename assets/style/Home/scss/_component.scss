@@ -1,0 +1,13 @@
+.btn-read-more{
+    border: none;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color:$color_primary;
+    color:#FFFFFF;
+    &:hover{
+        background-color:$color_primary_hover;
+        color:$color_primary;
+        transition-duration: 0.3s;
+    }
+}
